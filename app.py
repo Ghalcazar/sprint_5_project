@@ -27,4 +27,4 @@ if scatter_button: # se o botão for clicado
      fig2 = px.scatter(car_data, x="odometer", y="price")
      
      # exibir um gráfico Plotly interativo
-     st.plotly_chart(fig2)
+     st.pyplot(fig2)
